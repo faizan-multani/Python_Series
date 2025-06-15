@@ -9,10 +9,10 @@
 ## Alignment : center, ljust, rjust
 ## Format : format, format_map, f-strings
 #
-![conversion method](conversion.png)
-![search method](searching.png)
-![split and join method](split_and_join.png)
-![validation method](validation.png)
-![modify method](modification.png)
-![alignment method](alignment.png)
+![conversion method](assets/conversion.png)
+![search method](assets/searching.png)
+![split and join method](assets/split_and_join.png)
+![validation method](assets/validation.png)
+![modify method](assets/modification.png)
+![alignment method](assets/alignment.png)
 
