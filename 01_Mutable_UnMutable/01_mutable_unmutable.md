@@ -1,4 +1,4 @@
-# Mutable and UnMutable :
+# Mutable and InMutable :
 ![My Image](assets/mutable_unmutable.png)
 
 ## Mutable :
