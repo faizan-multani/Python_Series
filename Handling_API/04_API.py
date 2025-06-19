@@ -9,14 +9,16 @@ def fetch_random_user_freeapi():
         user_data = data["data"]
         username = user_data["login"]["username"]
         country = user_data["location"]["country"]
-        return username, country
+        location = user_data["location"]["state"]
+        user_name = user_data["name"]["title"]
+        return username, country,  user_name, location
     else:
         raise Exception("Failed to fetch user data")
 
 def main():
     try:
-        username, country = fetch_random_user_freeapi()
-        print(f"Username: {username} \nCountry: {country}")
+        username, country ,user_name, location = fetch_random_user_freeapi()
+        print(f"Username: {username} \nCountry: {country} \nusername : {user_name} \nlocation : {location}")
     except Exception as e:
         print(str(e))
 
