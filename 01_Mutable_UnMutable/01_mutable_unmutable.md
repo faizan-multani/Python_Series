@@ -5,6 +5,6 @@
 - which can be changed.
 - value/refference can be changed.
 
-## UnMutable :
+## InMutable :
 - which can not be changed.
 - value can not be changed.
