@@ -38,7 +38,7 @@ pattern = re.compile(r'\d+')
 ![](assets/special-sequences.png)
 ![](assets/regex_character.png)
 
-[Download PDF](regex.pdf)
+[Download PDF](assets/regex.pdf)
 
 
 
