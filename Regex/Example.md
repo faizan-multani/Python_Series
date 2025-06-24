@@ -118,3 +118,20 @@ print(matches)  # ['is', 'test']
 
 ```
 
+## ✅ 6. Neglate/Ignore a word ?
+```
+words = '''
+cat
+bat
+pat
+'''
+pattern = re.compile(r'[^b]at')
+
+matches = pattern.finditer(words)
+
+for match in matches:
+    print(match)
+    
+    # O/P cat pat
+```
+
