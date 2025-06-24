@@ -100,5 +100,25 @@ if(not os.path.exists("data")):
 
 for i in range(1,20):
     os.mkdir(f"data/day") 
-    
+
+```
+
+## Rename folder/sub-folder :
+```
+import os
+
+for i in range(1,20):
+    os.rename(f"data/day", f"data/tutorial")
+```
+
+## Search for directories/folder :
+```
+import os
+
+folders = ps.listdir("data")
+print(folders)
+
+for folder in folders:
+    print(folder)
+    print(os.listdir(f"data/{folder}"))
 ```
