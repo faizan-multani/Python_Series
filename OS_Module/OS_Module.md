@@ -6,7 +6,7 @@
 import os
 ```
 # 📁 2. Working with Directories :
-- ➤ Get Current Working Directory
+## ➤ Get Current Working Directory :
 ```
 print(os.getcwd())  # e.g., /home/faizan/projects
 ```
