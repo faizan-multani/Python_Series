@@ -90,3 +90,15 @@ with open(os.path.join("demo", "example.txt"), "w") as f:
 
 ![](assets/summary-table.png)
 ![](assets/summary.png)
+
+
+## to make n number of folder/sub-folder :
+```
+import os
+if(not os.path.exists("data")):
+    os.mkdir("data")
+
+for i in range(1,20):
+    os.mkdir(f"data/day") 
+    
+```
