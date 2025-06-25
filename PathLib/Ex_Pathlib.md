@@ -52,3 +52,27 @@ This is pathlib demo.
  - file.txt
 
 ``` 
+
+## Remove a file using pathlib :
+```
+from pathlib import Path
+
+# Create a path object
+file = Path("example.txt")
+
+# Check if file exists before deleting
+if file.exists() and file.is_file():
+    file.unlink()
+    print(f"{file.name} deleted successfully.")
+else:
+    print("File not found.")
+
+```   
+### .unlink() is like os.remove() — it only works for files, not directories.
+
+### It raises an error if :
+
+- The file doesn’t exist
+
+- You try to unlink a directory 
+
