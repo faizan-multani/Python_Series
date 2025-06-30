@@ -84,3 +84,23 @@ dt = datetime.now(ZoneInfo("Asia/Kolkata"))
 print(dt)
 
 ```
+
+```
+import datetime
+todays_date = datetime.date.today()
+
+# time_delta = datetime.timedelta(days=7)
+# print(time_delta)
+# print(todays_date + time_delta)
+
+# get how many days left in your bday.
+# bday = datetime.date(2025,10,5)
+# left_days = bday - todays_date
+# print(left_days," days are left")
+
+current_time = datetime.time(12,30,45)
+print(current_time)
+```
+
+## Note :
+- 
