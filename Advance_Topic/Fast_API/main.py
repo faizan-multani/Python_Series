@@ -5,6 +5,7 @@ from typing import List
 app = FastAPI()
 
 # line no. 8-13 defining data structure
+# pydantic 9-12
 class Tea(BaseModel):
     id:int
     name:str
