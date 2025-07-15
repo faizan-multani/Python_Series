@@ -11,10 +11,9 @@ def mistake(partest,usertest):
             error += 1
     return error
 
-def speed_time(start_time,end_time,userinput):
+def speed_time(start_time,end_time):
     time_delay = end_time - start_time
     time_Roundoff = round(time_delay,2)
-    # speed = len(userinput.split())/time_Roundoff
     return time_Roundoff
 
 
@@ -38,7 +37,7 @@ if __name__ == '__main__':
             testinput = input("Enter : ")
             time_2 = time()
 
-            print('Speed : ',speed_time(time_1,time_2,testinput),"sec")
+            print('Speed : ',speed_time(time_1,time_2),"sec")
 
             print('Error : ',mistake(test1,testinput))
         elif check == "no":
