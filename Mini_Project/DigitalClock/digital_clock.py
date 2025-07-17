@@ -13,7 +13,7 @@ root.geometry("350x150")
 root.resizable(False, False)
 root.configure(bg = "black")
 
-label = tk.Label(root, font=("Helvetica", 35), bg="black", fg="cyan")
+label = tk.Label(root, font=("Helvetica", 35), bg="black", fg="gold")
 label.pack(expand=True)
 
 update_time() 
