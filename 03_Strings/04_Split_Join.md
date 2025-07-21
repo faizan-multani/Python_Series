@@ -36,6 +36,7 @@ s = "Python    is    awesome"
 clean = ' '.join(s.split())
 print(clean)
 # Output: Python is awesome
+# Extra spaces are ignored in list/split()
 ```
 ## Q6: Split only first 2 words ?
 ```
