@@ -13,7 +13,7 @@ print(html[0])
 
 ```
 
-## Get Specific table : match=" "
+## Get Specific Data/Table : match=" "
 - we'll use match parameter.
 ```
 import pandas as pd
@@ -21,4 +21,12 @@ import pandas as pd
 html=pd.read_html("https://en.wikipedia.org/wiki/Economy_of_the_United_States",match="Government debt")
 
 print(html[0])
+
+# for datatype
+print(type(html[0]))
+```
+
+## Convert Dataframe to HTML :
+```
+html[0].to_html('demo.html')
 ```
